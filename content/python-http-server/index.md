@@ -1,6 +1,6 @@
 +++
 date = '2025-08-28T17:23:25Z'
-draft = true
+draft = false
 title = 'Python HTTP Server'
 categories = ['tips']
 tags = ['python','http','server']
