@@ -2,6 +2,7 @@
 date = '2025-08-28T17:24:51Z'
 draft = true
 title = 'Python HTTP Client'
+categories = ['tips']
 tags = ['python','http','client']
 +++
 
