@@ -8,6 +8,7 @@ Content Management System
 
 ## References
 
+- https://gohugo.io/configuration/ + `hugo config`: configuration reference
 - https://gohugo.io/
 - https://github.com/gohugoio/hugo
 
