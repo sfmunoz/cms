@@ -1,19 +1,26 @@
 # CMS
 
-Content Management System involving:
-
-- https://github.com/sfmunoz/sfmunoz.github.io
-- https://github.com/sfmunoz/content
-
-Contents:
+Content Management System
 
 - [References](#references)
+- [Architecture](#architecture)
 - [Development](#development)
 
 ## References
 
 - https://gohugo.io/
 - https://github.com/gohugoio/hugo
+
+## Architecture
+
+```mermaid
+flowchart LR
+    sfmunoz("`sfmunoz.github.io<br>**frontend**<br>SvelteKit`")
+    cms("`cms<br>**backend**<br>Hugo`")
+    style cms stroke-width:4px
+    content("`content<br>**data**<br>Git`")
+    sfmunoz --> cms --> content
+```
 
 ## Development
 
