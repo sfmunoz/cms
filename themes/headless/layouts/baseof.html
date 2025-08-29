@@ -2,9 +2,6 @@
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 <head></head>
 <body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
   <main>
     {{ block "main" . }}{{ end }}
   </main>
