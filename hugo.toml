@@ -42,5 +42,5 @@ title = 'CMS'
   page = ['html']
   rss = ['rss']
   section = ['html', 'rss']
-  taxonomy = ['html', 'rss']
+  taxonomy = ['html', 'rss', 'json']
   term = ['html', 'rss']
