@@ -2,6 +2,11 @@ baseURL = 'https://sfmunoz.com/'
 languageCode = 'en-us'
 title = 'CMS'
 
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
 [menus]
   [[menus.main]]
     name = 'Home'
