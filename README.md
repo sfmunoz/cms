@@ -67,7 +67,7 @@ Default **HUGO_THEME=headless**:
 ```
 $ ./build.sh
 + rm -rf public
-+ hugo build --gc --minify
++ hugo build --gc --minify --panicOnWarning
 (...)
 ```
 
@@ -76,6 +76,6 @@ Use **HUGO_THEME=standalone**:
 ```
 HUGO_THEME=standalone ./build.sh
 + rm -rf public
-+ hugo build --gc --minify
++ hugo build --gc --minify --panicOnWarning
 (...)
 ```
