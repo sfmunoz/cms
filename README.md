@@ -5,6 +5,7 @@ Content Management System
 - [References](#references)
 - [Architecture](#architecture)
 - [Development](#development)
+- [Build](#build)
 
 ## References
 
@@ -56,5 +57,25 @@ Flags:
   --noHTTPCache            prevent HTTP caching
 (...)
   -t, --theme strings      themes to use (located in /themes/THEMENAME/)
+(...)
+```
+
+## Build
+
+Default **HUGO_THEME=headless**:
+
+```
+$ ./build.sh
++ rm -rf public
++ hugo build --gc --minify
+(...)
+```
+
+Use **HUGO_THEME=standalone**:
+
+```
+HUGO_THEME=standalone ./build.sh
++ rm -rf public
++ hugo build --gc --minify
 (...)
 ```
