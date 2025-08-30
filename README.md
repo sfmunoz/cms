@@ -25,13 +25,24 @@ flowchart LR
 
 ## Development
 
-Standalone server:
+Run **hugo server** using default **headless** theme:
 
 ```
-$ hugo server -D --disableFastRender --noHTTPCache -t standalone
+$ ./run.sh
++ rm -rf public
++ hugo server -D --disableFastRender --noHTTPCache
+(...)
 ```
 
-Options:
+Run **hugo server** using default **standalone** theme:
+
+```
+$ HUGO_THEME=standalone ./run.sh
++ rm -rf public
++ hugo server -D --disableFastRender --noHTTPCache
+```
+
+Options (**run.sh** sets **HUGO_THEME** environment variable instead of **-t/--theme** command line argument):
 
 ```
 $ hugo server -h
