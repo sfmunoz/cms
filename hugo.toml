@@ -32,3 +32,7 @@ title = 'CMS'
   [module.hugoVersion]
     extended = false
     min = '0.146.0'
+
+  [[module.mounts]]
+    source = '../content'
+    target = 'content'
