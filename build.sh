@@ -15,5 +15,5 @@ set -x
 
 # cleanup: hugo doesn't do it
 rm -rf public
-hugo build --gc --minify "$@"
+hugo build --gc --minify --panicOnWarning "$@"
 
