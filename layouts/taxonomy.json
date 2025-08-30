@@ -1,0 +1,10 @@
+{{ define "main" }}
+"title": {{ .Title  | jsonify }},
+"pages": [{{ range $k, $v := .Pages }}
+  {{ if $k }},{{ end }}
+  {
+    "link": {{ .RelPermalink | jsonify }},
+    "title": {{ .LinkTitle | jsonify }}
+  }{{ end }}
+]
+{{ end }}
