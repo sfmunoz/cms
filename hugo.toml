@@ -38,7 +38,7 @@ title = 'CMS'
     target = 'content'
 
 [outputs]
-  home = ['html', 'rss']
+  home = ['html', 'rss', 'json']
   page = ['html']
   rss = ['rss']
   section = ['html', 'rss']
