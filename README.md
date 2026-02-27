@@ -2,11 +2,6 @@
 
 Content Management System
 
-- [References](#references)
-- [Architecture](#architecture)
-- [Development](#development)
-- [Build](#build)
-
 ## References
 
 - https://gohugo.io/configuration/ + `hugo config`: configuration reference
