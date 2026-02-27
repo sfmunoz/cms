@@ -17,11 +17,12 @@ Content Management System
 
 ```mermaid
 flowchart LR
+    user(["user"])
     sfmunoz("`sfmunoz.github.io<br>**frontend**<br>SvelteKit`")
     cms("`cms<br>**backend**<br>Hugo`")
     style cms stroke-width:4px
     content("`content<br>**data**<br>Git`")
-    sfmunoz --> cms --> content
+    user -->|https| sfmunoz --> cms --> content
 ```
 
 ## Development
